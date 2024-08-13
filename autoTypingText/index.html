@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Created by Innex -->
+<html>
+    <head>
+        <title>Auto Typing Text</title>			
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" 
+				rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,
+				minimum-scale=1.0,maximum-scale=1.0">
+    </head>
+    <body>
+       <div class="container">
+        <h1>I'm a <span class="auto-type"></span></h1>
+       </div>
+      
+       <script src="
+       https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+       <script>
+        var typed = new Typed(".auto-type",{
+          strings:["Programmer","Designer",
+            "YouTuber"
+          ],
+          typeSpeed: 150,
+          backSpeed: 150,
+          looped: true
+        })
+       </script>
+    </body>
+</html>
